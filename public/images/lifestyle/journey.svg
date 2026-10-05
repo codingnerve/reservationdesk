@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-label="Scenic hills at dusk">
+  
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15181a"/>
+      <stop offset="0.55" stop-color="#0a5652"/>
+      <stop offset="1" stop-color="#14877f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.3" cy="0.35" r="0.2">
+      <stop offset="0" stop-color="#f5d9a8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f5d9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22262a"/>
+      <stop offset="1" stop-color="#15181a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sky)" transform="scale(1,-1) translate(0,-1200)"/>
+  <rect width="1600" height="1200" fill="url(#sun)"/>
+  <path d="M0 744 Q 320 528 720 696 T 1600 600 V 1200 H 0 Z" fill="#0a5652" opacity="0.65"/>
+  <path d="M0 816 Q 560 648 1040 792 T 1600 720 V 1200 H 0 Z" fill="url(#ground)"/>
+  <path d="M0 1200 C 320 840, 720 912, 1120 816 " stroke="#f5d9a8" stroke-width="4" stroke-dasharray="18 24" fill="none" opacity="0.35"/>
+</svg>
